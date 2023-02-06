@@ -26,6 +26,7 @@
     "@retap/provider": "^1.0.1",
     "@retap/types": "^1.0.5",
     "@tiptap/react": "^2.0.0-beta.212",
+    "@chakra-ui/react": "^2.4.9",
     "react": "^18.2.0"
   },
   "devDependencies": {

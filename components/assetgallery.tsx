@@ -1,4 +1,4 @@
-import { Box, Button, Flex, useTheme } from "@chakra-ui/react";
+import { Box, Button, Flex, FlexProps, useTheme } from "@chakra-ui/react";
 import React, { FC, useState } from "react";
 import { MdCheck } from "react-icons/md";
 import {
@@ -7,18 +7,19 @@ import {
   InsertButtonProps,
 } from "@retap/types";
 
-export const AssetGallery: FC<AssetGalleryProps> = ({
+export const AssetGallery: FC<AssetGalleryProps & { styles?: FlexProps }> = ({
   children,
   assetArray,
   isLoading = false,
   fallback = "loading...",
+  styles,
 }) => {
   const [selectedItem, setSelectedItem] = useState<string>("");
 
   if (isLoading) return <>{fallback}</>;
 
   return (
-    <Flex wrap="wrap" gap="4">
+    <Flex wrap="wrap" gap="4" {...styles}>
       {assetArray?.map((src, index) => {
         return children({
           src,
