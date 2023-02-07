@@ -1,1 +1,1 @@
-# retap components
+# components for retap editor
