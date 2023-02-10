@@ -22,10 +22,10 @@
   },
   "peerDependencies": {
     "@chakra-ui/react": "^2.4.9",
-    "@retap/functions": "^1.1.2",
-    "@retap/hooks": "^1.0.2",
-    "@retap/provider": "^1.0.1",
-    "@retap/types": "^1.0.5",
+    "@retap/functions": "^1.1.6",
+    "@retap/hooks": "^1.0.3",
+    "@retap/provider": "^1.0.2",
+    "@retap/types": "^1.0.10",
     "@tiptap/react": "^2.0.0-beta.212",
     "react": "^18.2.0"
   },
