@@ -1,0 +1,71 @@
+[33mcommit 5799fd5c91961221f17c231363f215097da090d5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Sat Mar 11 22:44:57 2023 +0500
+
+    fix: renamed and updated all previous deps
+    
+    renamed and updated all previous deps
+
+[33mcommit 5fc147d9be06683b4b9502e12c338b4a5f77a0b0[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Sat Mar 11 21:38:36 2023 +0500
+
+    fix(package.json components/*): renamed
+    
+    renamed
+
+[33mcommit c823a74c6e082fe0b21887661a8579a174111fd2[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Fri Feb 10 19:48:24 2023 +0500
+
+    fix: deps
+    
+    deps
+
+[33mcommit 1337f1efff266e54f356e2dd452c7241dfb247c6[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Fri Feb 10 19:43:49 2023 +0500
+
+    fix: updated peers
+    
+    updated peers
+
+[33mcommit 4cbc29c377c71e85a53e6a8d9ba8ec058f2ead7d[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Tue Feb 7 22:45:45 2023 +0500
+
+    fix: added types
+    
+    added types field in package.json
+
+[33mcommit c45f57bfb2ab01364f2f3ecfacc348b2529aba1a[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Tue Feb 7 22:33:31 2023 +0500
+
+    fix: added types
+    
+    added types
+
+[33mcommit b03c7c49f22416a5d9aaba5d8194ef0fdae53ebd[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Tue Feb 7 00:55:14 2023 +0500
+
+    fix(assetgallery.tsxx): added styles props
+    
+    added styles prop
+
+[33mcommit 19066f7123e30e68a216d1746bb61bc22e4d2da2[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Mon Feb 6 23:39:54 2023 +0500
+
+    fix: release
+    
+    release
+
+[33mcommit d2b14951b41980b2647497a151b7d1822728eef8[m
+Author: palari <fahadsaleem020@gmail.com>
+Date:   Mon Feb 6 23:37:27 2023 +0500
+
+    feat: release
+    
+    release
