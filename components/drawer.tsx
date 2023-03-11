@@ -1,21 +1,21 @@
 import React, { FC } from "react";
 import { Drawer as ChakraDrawer } from "@chakra-ui/react";
 import { DisclosureProps, UseDisclosePropsExtended } from "@chakra-editor/types";
-import { useRetap } from "@chakra-editor/provider";
+import { useEditor } from "@chakra-editor/provider";
 
-export const RetapDrawer: FC<DisclosureProps> = ({
+export const Drawer: FC<DisclosureProps> = ({
   children,
   id,
   ...props
 }) => {
-  const { Drawer } = useRetap();
+  const { drawer } = useEditor();
 
-  const isId = isIdMatched(Drawer?.disclosureProps!, id);
+  const isId = isIdMatched(drawer?.disclosureProps!, id);
 
   return (
     <ChakraDrawer
       isOpen={isId && isId.isOpen}
-      onClose={Drawer?.disclosureProps!.onClose}
+      onClose={drawer?.disclosureProps!.onClose}
       {...props}
     >
       {children}

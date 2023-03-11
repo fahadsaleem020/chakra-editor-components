@@ -1,1 +1,1 @@
-# components for retap editor
+# components for chakra editor

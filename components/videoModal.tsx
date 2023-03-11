@@ -18,13 +18,13 @@ import React, { FC } from "react";
 import { MdClose } from "react-icons/md";
 import { VideoModalInputs } from "@chakra-editor/types";
 import { useForm } from "@chakra-editor/hooks";
-import { useRetap } from "@chakra-editor/provider";
+import { useEditor } from "@chakra-editor/provider";
 import { insertVideo } from "@chakra-editor/functions";
 
 export const VideoModal: FC<{
   editor: Editor;
 }> = ({ editor }) => {
-  const { video } = useRetap();
+  const { video } = useEditor();
   const { handler } = useForm<VideoModalInputs>();
 
   const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {

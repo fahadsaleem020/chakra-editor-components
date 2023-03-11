@@ -1,8 +1,8 @@
 export { YoutubeModal } from "./components/youtubeModal";
-export { RetapDrawer } from "./components/retapdrawer";
+export { Drawer } from "./components/drawer";
 export { ImageModal } from "./components/imageModal";
 export { LinkEditor } from "./components/linkEditor";
-export { RetapModal } from "./components/retapmodal";
+export { Modal } from "./components/modal";
 export { VideoModal } from "./components/videoModal";
 export { TableComponent } from "./components/table";
 export { LinkModal } from "./components/linkModal";

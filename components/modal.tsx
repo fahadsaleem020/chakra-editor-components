@@ -1,21 +1,21 @@
 import React, { FC } from "react";
 import { Modal as ChakraModal } from "@chakra-ui/react";
 import { DisclosureProps, UseDisclosePropsExtended } from "@chakra-editor/types";
-import { useRetap } from "@chakra-editor/provider";
+import { useEditor } from "@chakra-editor/provider";
 
-export const RetapModal: FC<DisclosureProps> = ({
+export const Modal: FC<DisclosureProps> = ({
   children,
   id,
   ...props
 }) => {
-  const { Modal } = useRetap();
+  const { modal } = useEditor();
 
-  const isId = isIdMatched(Modal?.disclosureProps, id);
+  const isId = isIdMatched(modal?.disclosureProps, id);
 
   return (
     <ChakraModal
       isOpen={isId && isId.isOpen}
-      onClose={Modal?.disclosureProps!.onClose}
+      onClose={modal?.disclosureProps!.onClose}
       {...props}
     >
       {children}
