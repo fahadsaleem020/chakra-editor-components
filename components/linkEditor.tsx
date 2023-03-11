@@ -1,4 +1,4 @@
-import { insertUrl, removeUrl } from "@retap/functions";
+import { insertUrl, removeUrl } from "@chakra-editor/functions";
 import {
   IconButton,
   Input,
@@ -8,8 +8,8 @@ import {
 import { MdCheck, MdLinkOff } from "react-icons/md";
 import React, { FC } from "react";
 import type { Editor } from "@tiptap/react";
-import { LinkInputs } from "@retap/types";
-import { useForm } from "@retap/hooks";
+import { LinkInputs } from "@chakra-editor/types";
+import { useForm } from "@chakra-editor/hooks";
 
 export const LinkEditor: FC<{
   editor: Editor;

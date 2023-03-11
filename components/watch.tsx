@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
 import { useInterval } from "@chakra-ui/react";
 import { generateJSON } from "@tiptap/react";
-import { WatchProps, Content, LookupProps } from "@retap/types";
+import { WatchProps, Content, LookupProps } from "@chakra-editor/types";
 
 export const Watch: FC<WatchProps> = ({ delay = 0, children, extensions }) => {
   const [content, setContent] = useState<Content>();
@@ -29,7 +29,6 @@ export const Lookup: (props: LookupProps) => any = ({ content, children }) => {
       return children({ type, attrs, content: content });
     case "bulletList":
       return children({ type, attrs, content: content });
-
     case "orderedList":
       return children({ type, attrs, content: content });
     case "table":

@@ -5,7 +5,7 @@ import {
   AssetGalleryProps,
   AssetBoxProps,
   InsertButtonProps,
-} from "@retap/types";
+} from "@chakra-editor/types";
 
 export const AssetGallery: FC<AssetGalleryProps & { styles?: FlexProps }> = ({
   children,

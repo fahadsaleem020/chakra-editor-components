@@ -4,6 +4,7 @@ import typescript from "rollup-plugin-typescript2";
 import terser from "@rollup/plugin-terser";
 import { defineConfig } from "rollup";
 import del from "rollup-plugin-delete";
+import { nodeResolve } from "@rollup/plugin-node-resolve";
 
 export default defineConfig([
   {
@@ -15,8 +16,10 @@ export default defineConfig([
       sourcemap: true,
     },
 
+    context: "react-icons",
     plugins: [
       del({ targets: "lib/*", verbose: true }),
+      nodeResolve(),
       terser(),
       externals(),
       typescript({

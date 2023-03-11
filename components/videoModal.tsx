@@ -16,10 +16,10 @@ import {
 import { Editor } from "@tiptap/react";
 import React, { FC } from "react";
 import { MdClose } from "react-icons/md";
-import { VideoModalInputs } from "@retap/types";
-import { useForm } from "@retap/hooks";
-import { useRetap } from "@retap/provider";
-import { insertVideo } from "@retap/functions";
+import { VideoModalInputs } from "@chakra-editor/types";
+import { useForm } from "@chakra-editor/hooks";
+import { useRetap } from "@chakra-editor/provider";
+import { insertVideo } from "@chakra-editor/functions";
 
 export const VideoModal: FC<{
   editor: Editor;

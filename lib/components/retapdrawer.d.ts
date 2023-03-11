@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { RetapDisclosureProps, UseDisclosePropsExtended } from "@retap/types";
-export declare const RetapDrawer: FC<RetapDisclosureProps>;
+import { DisclosureProps, UseDisclosePropsExtended } from "@chakra-editor/types";
+export declare const RetapDrawer: FC<DisclosureProps>;
 export declare const isIdMatched: (disclosureProps: UseDisclosePropsExtended | undefined, id: string | undefined) => false | {
     isOpen: boolean;
 };

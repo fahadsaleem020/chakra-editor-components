@@ -16,10 +16,10 @@ import {
 import { Editor } from "@tiptap/react";
 import React, { FC } from "react";
 import { MdClose } from "react-icons/md";
-import { ImageModalInputs } from "@retap/types";
-import { useRetap } from "@retap/provider";
-import { useForm } from "@retap/hooks";
-import { insertImage } from "@retap/functions";
+import { ImageModalInputs } from "@chakra-editor/types";
+import { useRetap } from "@chakra-editor/provider";
+import { useForm } from "@chakra-editor/hooks";
+import { insertImage } from "@chakra-editor/functions";
 
 export const ImageModal: FC<{
   editor: Editor;

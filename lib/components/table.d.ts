@@ -1,4 +1,4 @@
-import { RenderRowProps, RenderCellProps, TableComponentProps } from "@retap/types";
+import { RenderRowProps, RenderCellProps, TableComponentProps } from "@chakra-editor/types";
 import { FC } from "react";
 export declare const TableComponent: TableComponentProps;
 export declare const RenderRow: FC<RenderRowProps>;

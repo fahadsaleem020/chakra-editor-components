@@ -2,9 +2,9 @@ import {
   RenderRowProps,
   RenderCellProps,
   TableComponentProps,
-} from "@retap/types";
+} from "@chakra-editor/types";
 import React, { FC } from "react";
-import { insertTable } from "@retap/functions";
+import { insertTable } from "@chakra-editor/functions";
 import { Box, Flex } from "@chakra-ui/react";
 
 export const TableComponent: TableComponentProps = ({
@@ -110,9 +110,9 @@ export const RenderCell: FC<RenderCellProps> = ({
         bg={
           isActive
             ? cellProps.bg ||
-              cellProps.background ||
-              cellProps.backgroundColor ||
-              "black"
+            cellProps.background ||
+            cellProps.backgroundColor ||
+            "black"
             : "transparent"
         }
       />

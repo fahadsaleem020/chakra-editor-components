@@ -20,12 +20,12 @@ import {
   HStack,
   Text,
 } from "@chakra-ui/react";
-import { insertYoutubeVideo } from "@retap/functions";
-import { YoutubeInputs } from "@retap/types";
-import { useRetap } from "@retap/provider";
+import { insertYoutubeVideo } from "@chakra-editor/functions";
+import { YoutubeInputs } from "@chakra-editor/types";
+import { useRetap } from "@chakra-editor/provider";
 import { MdClose } from "react-icons/md";
 import { Editor } from "@tiptap/react";
-import { useForm } from "@retap/hooks";
+import { useForm } from "@chakra-editor/hooks";
 import React, { FC } from "react";
 
 export const YoutubeModal: FC<{

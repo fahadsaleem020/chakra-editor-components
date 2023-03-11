@@ -1,6 +1,6 @@
 import { FlexProps } from "@chakra-ui/react";
 import { FC } from "react";
-import { AssetGalleryProps, AssetBoxProps, InsertButtonProps } from "@retap/types";
+import { AssetGalleryProps, AssetBoxProps, InsertButtonProps } from "@chakra-editor/types";
 export declare const AssetGallery: FC<AssetGalleryProps & {
     styles?: FlexProps;
 }>;

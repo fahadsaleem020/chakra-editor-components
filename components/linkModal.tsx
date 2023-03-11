@@ -16,9 +16,9 @@ import {
 import { Editor } from "@tiptap/react";
 import React, { FC } from "react";
 import { MdClose } from "react-icons/md";
-import { LinkInputs } from "@retap/types";
-import { insertUrl } from "@retap/functions";
-import { useForm } from "@retap/hooks";
+import { LinkInputs } from "@chakra-editor/types";
+import { insertUrl } from "@chakra-editor/functions";
+import { useForm } from "@chakra-editor/hooks";
 
 export const LinkModal: FC<{
   isOpen: boolean;

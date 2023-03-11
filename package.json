@@ -1,12 +1,12 @@
 {
-  "name": "@retap/components",
+  "name": "@chakra-editor/components",
   "version": "0.0.0-development",
   "type": "module",
   "license": "MIT",
   "author": "fahadsaleem",
-  "description": "components for retap editor",
+  "description": "components for chakra editor",
   "keywords": [
-    "@retap/components",
+    "@chakra-editor/components",
     "tiptap"
   ],
   "files": [
@@ -21,20 +21,21 @@
     "commit": "cz"
   },
   "peerDependencies": {
+    "@chakra-editor/functions": "^1.1.9",
+    "@chakra-editor/hooks": "^1.0.4",
+    "@chakra-editor/provider": "^1.0.3",
+    "@chakra-editor/types": "^1.0.12",
     "@chakra-ui/react": "^2.4.9",
-    "@retap/functions": "^1.1.6",
-    "@retap/hooks": "^1.0.3",
-    "@retap/provider": "^1.0.2",
-    "@retap/types": "^1.0.10",
     "@tiptap/react": "^2.0.0-beta.212",
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@chakra-editor/functions": "^1.1.9",
+    "@chakra-editor/hooks": "^1.0.4",
+    "@chakra-editor/provider": "^1.0.3",
+    "@chakra-editor/types": "^1.0.12",
     "@chakra-ui/react": "^2.4.9",
-    "@retap/functions": "^1.1.6",
-    "@retap/hooks": "^1.0.3",
-    "@retap/provider": "^1.0.2",
-    "@retap/types": "^1.0.10",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
     "@tiptap/react": "^2.0.0-beta.212",
     "@types/react": "^18.0.26",
@@ -69,6 +70,6 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fahadsaleem020/retap-components.git"
+    "url": "https://github.com/fahadsaleem020/chakra-editor-components.git"
   }
 }
