@@ -17,7 +17,7 @@
     "dev": "vite",
     "semantic-release": "semantic-release",
     "preview": "vite preview",
-    "build": "rollup -c && npm pack --dry-run",
+    "build": "rollup -c",
     "commit": "cz"
   },
   "peerDependencies": {

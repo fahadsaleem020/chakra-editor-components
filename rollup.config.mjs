@@ -16,7 +16,7 @@ export default defineConfig([
       sourcemap: true,
     },
 
-    context: "react-icons",
+    context: "window",
     plugins: [
       del({ targets: "lib/*", verbose: true }),
       nodeResolve(),
