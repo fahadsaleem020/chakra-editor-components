@@ -22,7 +22,7 @@ import {
 } from "@chakra-ui/react";
 import { insertYoutubeVideo } from "@chakra-editor/functions";
 import { YoutubeInputs } from "@chakra-editor/types";
-import { useEditor } from "@chakra-editor/provider";
+import { useChakraEditor } from "@chakra-editor/provider";
 import { MdClose } from "react-icons/md";
 import { Editor } from "@tiptap/react";
 import { useForm } from "@chakra-editor/hooks";
@@ -31,7 +31,7 @@ import React, { FC } from "react";
 export const YoutubeModal: FC<{
   editor: Editor;
 }> = ({ editor }) => {
-  const { youtube } = useEditor();
+  const { youtube } = useChakraEditor();
   const { handler } = useForm<YoutubeInputs>();
 
   const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {

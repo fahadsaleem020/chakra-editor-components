@@ -1,14 +1,14 @@
 import React, { FC } from "react";
 import { Modal as ChakraModal } from "@chakra-ui/react";
 import { DisclosureProps, UseDisclosePropsExtended } from "@chakra-editor/types";
-import { useEditor } from "@chakra-editor/provider";
+import { useChakraEditor } from "@chakra-editor/provider";
 
 export const Modal: FC<DisclosureProps> = ({
   children,
   id,
   ...props
 }) => {
-  const { modal } = useEditor();
+  const { modal } = useChakraEditor();
 
   const isId = isIdMatched(modal?.disclosureProps, id);
 

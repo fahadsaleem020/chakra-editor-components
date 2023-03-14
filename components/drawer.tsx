@@ -1,14 +1,14 @@
 import React, { FC } from "react";
 import { Drawer as ChakraDrawer } from "@chakra-ui/react";
 import { DisclosureProps, UseDisclosePropsExtended } from "@chakra-editor/types";
-import { useEditor } from "@chakra-editor/provider";
+import { useChakraEditor } from "@chakra-editor/provider";
 
 export const Drawer: FC<DisclosureProps> = ({
   children,
   id,
   ...props
 }) => {
-  const { drawer } = useEditor();
+  const { drawer } = useChakraEditor();
 
   const isId = isIdMatched(drawer?.disclosureProps!, id);
 

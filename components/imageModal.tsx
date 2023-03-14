@@ -17,14 +17,14 @@ import { Editor } from "@tiptap/react";
 import React, { FC } from "react";
 import { MdClose } from "react-icons/md";
 import { ImageModalInputs } from "@chakra-editor/types";
-import { useEditor } from "@chakra-editor/provider";
+import { useChakraEditor } from "@chakra-editor/provider";
 import { useForm } from "@chakra-editor/hooks";
 import { insertImage } from "@chakra-editor/functions";
 
 export const ImageModal: FC<{
   editor: Editor;
 }> = ({ editor }) => {
-  const { image } = useEditor();
+  const { image } = useChakraEditor();
   const { handler } = useForm<ImageModalInputs>();
 
   const submitHandler = (e: React.FormEvent<HTMLFormElement>) => {
